@@ -17,7 +17,7 @@ COPY . /app/
 EXPOSE 5000
 
 # Define the environment variable for Flask
-ENV FLASK_APP=main.py
+ENV FLASK_APP=house.py
 ENV FLASK_RUN_HOST=0.0.0.0
 
 # Run the Flask application when the container starts
