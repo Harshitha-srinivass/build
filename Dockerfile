@@ -12,6 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the Flask application code into the container
 COPY . /app/
+COPY house_data.csv /app/data/
 
 # Expose the port the Flask app will run on
 EXPOSE 5000
